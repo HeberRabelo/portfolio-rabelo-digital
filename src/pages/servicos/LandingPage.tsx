@@ -25,7 +25,7 @@ export default function LandingPageService() {
         depoimentoServico="landing-page"
         cta={{
           primaryHref:
-            "https://wa.me/5575991904195?text=Quero%20uma%20Landing%20Page",
+            "https://wa.me/5575992590971?text=Quero%20uma%20Landing%20Page",
           primaryLabel: "Quero minha landing",
           secondaryHref: "https://SEU-CHECKOUT",
           secondaryLabel: "Contratar agora",
