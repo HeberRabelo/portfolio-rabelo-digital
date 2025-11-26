@@ -1,0 +1,129 @@
+/* src/index.css */
+html { scroll-behavior: smooth; }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Skins das seções (mesma família da barra) === */
+@layer components {
+  /* Azul claro igual à barra do menu de seções */
+  .section-sky {
+    @apply rounded-3xl ring-1 ring-black/5;
+    background:
+      radial-gradient(circle at 24px 24px, rgba(255,255,255,.10) 2px, transparent 2px),
+      radial-gradient(circle at 0 0,       rgba(255,255,255,.10) 2px, transparent 2px),
+      linear-gradient(180deg, #e9f1ff 0%, #d3e1ff 100%);
+    background-size: 56px 56px, 56px 56px, auto;
+  }
+
+  /* Verde/água (accent) — mais “green” que blue */
+  .section-aqua {
+    @apply rounded-3xl ring-1 ring-black/10 text-white;
+    background:
+      radial-gradient(circle at 32px 32px, rgba(255,255,255,.08) 2px, transparent 2px),
+      radial-gradient(circle at 0 0,       rgba(255,255,255,.06) 2px, transparent 2px),
+      linear-gradient(
+        135deg,
+        #0e7a53 0%,
+        #16a34a 35%,
+        #22c55e 65%,
+        #2dd4bf 100%
+      );
+    background-size: 56px 56px, 56px 56px, auto;
+  }
+
+  /* Azul escuro (hero) */
+  .section-navy {
+    @apply rounded-3xl ring-1 ring-black/10 text-white;
+    background: linear-gradient(135deg, #00134b 0%, #0b224e 40%, #113f6e 70%, #90cafb 100%);
+  }
+
+  /* Acento indigo (opcional) */
+  .section-accent {
+    @apply rounded-3xl ring-1 ring-black/10 text-white;
+    background: linear-gradient(135deg, #281f6b 0%, #3f34a5 55%, #8ea1ff 100%);
+  }
+} /* ← fecha @layer components */
+
+/* Esconder QUALQUER nav do cabeçalho SOMENTE na Home */
+[data-page="home"] header nav,
+[data-page="home"] header [role="navigation"],
+[data-page="home"] header .menu,
+[data-page="home"] header .menu-container,
+[data-page="home"] header .navbar,
+[data-page="home"] header .main-nav,
+[data-page="home"] header [class*="nav"],
+[data-page="home"] header [class*="menu"] {
+  display: none !important;
+}
+
+/* === Utilitárias do carrossel de logos === */
+@layer utilities {
+  .logo-marquee {
+    overflow: hidden;
+    /* fade nas bordas */
+    -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+
+    /* ✅ centraliza o bloco do carrossel na página */
+    width: min(100%, var(--w, 980px));
+    margin-inline: auto;
+
+    /* ✅ e centraliza o trilho dentro dele */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-track {
+    display: flex;
+    align-items: center;
+    gap: var(--gap, 64px);
+    width: max-content;
+    animation: logo-scroll var(--speed, 26s) linear infinite;
+  }
+
+  /* cores originais (sem grayscale) */
+  .logo-item {
+    height: var(--h, 96px);
+    width: auto;
+    object-fit: contain;
+    filter: none;
+    opacity: 1;
+    transition: transform .2s ease;
+  }
+  .logo-item:hover { transform: translateY(-1px); }
+}
+
+/* animação do carrossel */
+@keyframes logo-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
