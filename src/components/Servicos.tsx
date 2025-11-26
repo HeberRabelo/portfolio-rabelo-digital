@@ -39,7 +39,7 @@ const itens = [
   },
 ];
 
-eexport default function Servicos() {
+export default function Servicos() {
   const cards = [
     {
       titulo: "Landing Pages",
