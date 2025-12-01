@@ -16,7 +16,9 @@ export default function Home() {
       >
         <div className="mx-auto max-w-6xl px-4 py-16">
           <div className="mb-3 flex items-center gap-2 text-sm text-white/80">
-            <span className="rounded-full border border-white/20 px-3 py-1">Portfólio</span>
+            <span className="rounded-full border border-white/20 px-3 py-1">
+              Portfólio
+            </span>
             <span>•</span>
             <span>Rabelo Digital</span>
           </div>
@@ -26,26 +28,19 @@ export default function Home() {
           </h1>
 
           <p className="mt-3 max-w-3xl text-white/85">
-  Um ecossistema simples que trabalha por você: página rápida, Google que te encontra,
-  bio integrada e automações — do clique à conversa e da conversa à venda.
-</p>
+            Um ecossistema simples que trabalha por você: página rápida, Google
+            que te encontra, bio integrada e automações — do clique à conversa e
+            da conversa à venda.
+          </p>
 
-          <div className="mt-6 flex flex-col sm:flex-row gap-3">
+          <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="https://wa.me/5575992590971?text=Quero%20um%20or%C3%A7amento"
+              href="https://wa.me/5575992590971?text=Quero%20uma%20presen%C3%A7a%20online%20ativa%20para%20atrair%20clientes%20e%20vendas"
               target="_blank"
               rel="noreferrer"
-              className="w-full sm:w-auto rounded-full bg-green-500 px-5 py-3 font-semibold text-white shadow hover:bg-green-600 text-center"
+              className="inline-flex items-center rounded-full bg-emerald-500 px-6 py-3 text-sm font-semibold text-white shadow hover:bg-emerald-600"
             >
               Falar no WhatsApp
-            </a>
-            <a
-              href="https://SEU-CHECKOUT"
-              target="_blank"
-              rel="noreferrer"
-              className="w-full sm:w-auto rounded-full border border-white/20 bg-white/5 px-5 py-3 font-semibold text-white hover:bg-white/10 text-center"
-            >
-              Contratar agora
             </a>
           </div>
         </div>
@@ -57,12 +52,22 @@ export default function Home() {
         className="sticky top-[64px] z-40 border-y bg-gradient-to-b from-sky-50 to-sky-100"
       >
         <div className="mx-auto max-w-6xl px-4 py-3 flex gap-8 text-sm">
-          <a href="#landing-page" className="hover:opacity-80">Landing Page</a>
-          <a href="#google-meu-negocio" className="hover:opacity-80">GMN</a>
+          <a href="#landing-page" className="hover:opacity-80">
+            Landing Page
+          </a>
+          <a href="#google-meu-negocio" className="hover:opacity-80">
+            GMN
+          </a>
           {/* ✅ texto trocado */}
-          <a href="#bio-ig" className="hover:opacity-80">Bio Instagram</a>
-          <a href="#portfolio" className="hover:opacity-80">Portfólio</a>
-          <a href="#rabelo-automacoes" className="hover:opacity-80">Rabelo AutomAções</a>
+          <a href="#bio-ig" className="hover:opacity-80">
+            Bio Instagram
+          </a>
+          <a href="#portfolio" className="hover:opacity-80">
+            Portfólio
+          </a>
+          <a href="#rabelo-automacoes" className="hover:opacity-80">
+            Rabelo Automações
+          </a>
         </div>
       </nav>
 
@@ -82,7 +87,8 @@ export default function Home() {
         tipoProjeto="landing-page"
         depoimentoServico="landing-page"
         cta={{
-          primaryHref: "https://wa.me/5575992590971?text=Quero%20uma%20Landing%20Page",
+          primaryHref:
+            "https://wa.me/5575992590971?text=Quero%20uma%20Landing%20Page",
           primaryLabel: "Quero vender assim também",
           secondaryHref: "https://SEU-CHECKOUT",
           secondaryLabel: "Contratar agora",
@@ -110,10 +116,9 @@ export default function Home() {
         ]}
         depoimentoServico="google-meu-negocio"
         cta={{
-          primaryHref: "https://wa.me/5575992590971?text=Quero%20otimizar%20meu%20GMN",
+          primaryHref:
+            "https://wa.me/5575992590971?text=Quero%20otimizar%20meu%20GMN",
           primaryLabel: "Quero chegar no topo das pesquisas",
-          secondaryHref: "https://SEU-CHECKOUT",
-          secondaryLabel: "Contratar agora",
         }}
       />
 
@@ -134,7 +139,8 @@ export default function Home() {
         logosTitle="Empresas que confiam"
         logos={[logo1, logo2]}
         cta={{
-          primaryHref: "https://wa.me/5575992590971?text=Quero%20meu%20mini%20site%20na%20bio",
+          primaryHref:
+            "https://wa.me/5575992590971?text=Quero%20meu%20mini%20site%20na%20bio",
           primaryLabel: "Quero meu mini site na bio",
           secondaryHref: "https://SEU-CHECKOUT",
           secondaryLabel: "Contratar agora",
@@ -157,7 +163,8 @@ export default function Home() {
         tipoProjeto="portfolio"
         depoimentoServico="portfolio"
         cta={{
-          primaryHref: "https://wa.me/5575992590971?text=Quero%20um%20portf%C3%B3lio%20profissional",
+          primaryHref:
+            "https://wa.me/5575992590971?text=Quero%20um%20portf%C3%B3lio%20profissional",
           primaryLabel: "Quero meu Link Único",
           secondaryHref: "https://SEU-CHECKOUT",
           secondaryLabel: "Contratar agora",
@@ -184,15 +191,15 @@ export default function Home() {
         ]}
         depoimentoServico="rabelo-automacoes"
         cta={{
-          primaryHref: "https://wa.me/5575992590971?text=Quero%20automatizar%20meu%20atendimento",
+          primaryHref:
+            "https://wa.me/5575992590971?text=Quero%20automatizar%20meu%20atendimento",
           primaryLabel: "Quero automatizar meu atendimento",
-          secondaryHref: "https://SEU-CHECKOUT",
-          secondaryLabel: "Contratar agora",
         }}
       />
     </main>
   );
 }
+
 
 
 
