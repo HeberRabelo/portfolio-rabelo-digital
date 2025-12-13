@@ -9,7 +9,7 @@ export default function CtaBar() {
           </div>
           <div className="flex gap-3">
             <a
-              href="https://wa.me/5575992590971?text=Quero%20um%20or%C3%A7amento"
+              href="https://wa.me/5575991396595?text=Quero%20um%20or%C3%A7amento"
               target="_blank" rel="noopener"
               className="inline-flex items-center rounded-full bg-green-500 px-5 py-3 font-semibold text-white hover:bg-green-600"
             >
