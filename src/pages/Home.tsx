@@ -35,7 +35,7 @@ export default function Home() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="https://wa.me/5575992590971?text=Quero%20uma%20presen%C3%A7a%20online%20ativa%20para%20atrair%20clientes%20e%20vendas"
+              href="https://wa.me/5575992590971?text=Ol%C3%A1%2C%20vim%20do%20seu%20portf%C3%B3lio%20e%20quero%20potencializar%20minha%20presen%C3%A7a%20online."
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center rounded-full bg-emerald-500 px-6 py-3 text-sm font-semibold text-white shadow hover:bg-emerald-600"
@@ -87,7 +87,7 @@ export default function Home() {
         depoimentoServico="landing-page"
         cta={{
           primaryHref:
-            "https://wa.me/5575992590971?text=Quero%20uma%20Landing%20Page",
+            "https://wa.me/5575992590971?text=Ol%C3%A1%2C%20vim%20do%20seu%20portf%C3%B3lio%20e%20quero%20uma%20p%C3%A1gina%20de%20vendas%20de%20alta%20convers%C3%A3o",
           primaryLabel: "Quero vender assim também",
           secondaryHref: "https://mpago.la/1W2f5EJ",
           secondaryLabel: "Contratar agora",
@@ -116,7 +116,7 @@ export default function Home() {
         depoimentoServico="google-meu-negocio"
         cta={{
           primaryHref:
-            "https://wa.me/5575992590971?text=Quero%20otimizar%20meu%20GMN",
+            "https://wa.me/5575992590971?text=Ol%C3%A1%2C%20vim%20do%20seu%20portf%C3%B3lio%20e%20quero%20melhorar%20a%20visibilidade%20do%20meu%20neg%C3%B3cio%20nas%20pesquisas%20do%20Google",
           primaryLabel: "Quero chegar no topo das pesquisas",
         }}
       />
@@ -139,7 +139,7 @@ export default function Home() {
         logos={[logo1, logo2]}
         cta={{
           primaryHref:
-            "https://wa.me/5575992590971?text=Quero%20meu%20mini%20site%20na%20bio",
+            "https://wa.me/5575992590971?text=Ol%C3%A1%2C%20vim%20do%20seu%20portf%C3%B3lio%20e%20quero%20transformar%20meu%20instagram%20em%20um%20atalho%20para%20vendas",
           primaryLabel: "Quero meu mini site na bio",
           secondaryHref: "https://mpago.la/1NFabxk",
           secondaryLabel: "Contratar agora",
@@ -163,7 +163,7 @@ export default function Home() {
         depoimentoServico="portfolio"
         cta={{
           primaryHref:
-            "https://wa.me/5575992590971?text=Quero%20um%20portf%C3%B3lio%20profissional",
+            "https://wa.me/5575992590971?text=Ol%C3%A1%2C%20vim%20do%20seu%20portf%C3%B3lio%20e%20quero%20um%20espa%C3%A7o%20para%20reunir%20a%20minha%20trajet%C3%B3ria%20profissional%20em%20um%20s%C3%B3%20lugar",
           primaryLabel: "Quero meu Link Único",
           secondaryHref: "https://mpago.la/1wgJRKm",
           secondaryLabel: "Contratar agora",
@@ -191,14 +191,13 @@ export default function Home() {
         depoimentoServico="rabelo-automacoes"
         cta={{
           primaryHref:
-            "https://wa.me/5575992590971?text=Quero%20automatizar%20meu%20atendimento",
+            "https://wa.me/5575992590971?text=Ol%C3%A1%2C%20vim%20do%20seu%20portf%C3%B3lio%20e%20quero%20automatizar%20meu%20atendimento",
           primaryLabel: "Quero automatizar meu atendimento",
         }}
       />
     </main>
   );
 }
-
 
 
 
