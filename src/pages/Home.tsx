@@ -58,7 +58,6 @@ export default function Home() {
           <a href="#google-meu-negocio" className="hover:opacity-80">
             GMN
           </a>
-          {/* ✅ texto trocado */}
           <a href="#bio-ig" className="hover:opacity-80">
             Bio Instagram
           </a>
@@ -122,7 +121,7 @@ export default function Home() {
         }}
       />
 
-      {/* 3) Bio Instagram — ✅ sem tipoProjeto (remove “Alguns Trabalhos/Atalhos”), fica só o carrossel */}
+      {/* 3) Bio Instagram */}
       <ServiceSection
         variant="sky"
         id="bio-ig"
@@ -171,7 +170,7 @@ export default function Home() {
         }}
       />
 
-      {/* 5) Rabelo Automações (CTA principal laranja já configurado no component) */}
+      {/* 5) Rabelo Automações */}
       <ServiceSection
         variant="aqua"
         id="rabelo-automacoes"
@@ -199,6 +198,7 @@ export default function Home() {
     </main>
   );
 }
+
 
 
 
