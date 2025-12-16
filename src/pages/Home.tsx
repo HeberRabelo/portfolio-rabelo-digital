@@ -35,7 +35,7 @@ export default function Home() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="https://wa.me/5575991396595?text=Quero%20uma%20presen%C3%A7a%20online%20ativa%20para%20atrair%20clientes%20e%20vendas"
+              href="https://wa.me/5575992590971?text=Quero%20uma%20presen%C3%A7a%20online%20ativa%20para%20atrair%20clientes%20e%20vendas"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center rounded-full bg-emerald-500 px-6 py-3 text-sm font-semibold text-white shadow hover:bg-emerald-600"
@@ -88,7 +88,7 @@ export default function Home() {
         depoimentoServico="landing-page"
         cta={{
           primaryHref:
-            "https://wa.me/5575991396595?text=Quero%20uma%20Landing%20Page",
+            "https://wa.me/5575992590971?text=Quero%20uma%20Landing%20Page",
           primaryLabel: "Quero vender assim também",
           secondaryHref: "https://SEU-CHECKOUT",
           secondaryLabel: "Contratar agora",
@@ -117,7 +117,7 @@ export default function Home() {
         depoimentoServico="google-meu-negocio"
         cta={{
           primaryHref:
-            "https://wa.me/5575991396595?text=Quero%20otimizar%20meu%20GMN",
+            "https://wa.me/5575992590971?text=Quero%20otimizar%20meu%20GMN",
           primaryLabel: "Quero chegar no topo das pesquisas",
         }}
       />
@@ -140,7 +140,7 @@ export default function Home() {
         logos={[logo1, logo2]}
         cta={{
           primaryHref:
-            "https://wa.me/5575991396595?text=Quero%20meu%20mini%20site%20na%20bio",
+            "https://wa.me/5575992590971?text=Quero%20meu%20mini%20site%20na%20bio",
           primaryLabel: "Quero meu mini site na bio",
           secondaryHref: "https://SEU-CHECKOUT",
           secondaryLabel: "Contratar agora",
@@ -164,7 +164,7 @@ export default function Home() {
         depoimentoServico="portfolio"
         cta={{
           primaryHref:
-            "https://wa.me/5575991396595?text=Quero%20um%20portf%C3%B3lio%20profissional",
+            "https://wa.me/5575992590971?text=Quero%20um%20portf%C3%B3lio%20profissional",
           primaryLabel: "Quero meu Link Único",
           secondaryHref: "https://SEU-CHECKOUT",
           secondaryLabel: "Contratar agora",
@@ -192,7 +192,7 @@ export default function Home() {
         depoimentoServico="rabelo-automacoes"
         cta={{
           primaryHref:
-            "https://wa.me/5575991396595?text=Quero%20automatizar%20meu%20atendimento",
+            "https://wa.me/5575992590971?text=Quero%20automatizar%20meu%20atendimento",
           primaryLabel: "Quero automatizar meu atendimento",
         }}
       />

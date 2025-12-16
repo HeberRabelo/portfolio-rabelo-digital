@@ -2,7 +2,7 @@
 export default function WhatsFloat() {
   // 1) Troque pelo seu número COM DDI+DDD (só dígitos)
   //    Exemplo: 55 11 91234-5678  ->  "5511912345678"
-  const phone = "5575991396595";
+  const phone = "5575992590971";
 
   // 2) Personalize a mensagem inicial (será automaticamente codificada)
   const rawMessage = "Olá! Quero maiores informações sobre o serviço.";
