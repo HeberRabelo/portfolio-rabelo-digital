@@ -90,7 +90,7 @@ export default function Home() {
           primaryHref:
             "https://wa.me/5575992590971?text=Quero%20uma%20Landing%20Page",
           primaryLabel: "Quero vender assim também",
-          secondaryHref: "https://SEU-CHECKOUT",
+          secondaryHref: "https://mpago.la/1W2f5EJ",
           secondaryLabel: "Contratar agora",
         }}
       />
@@ -142,7 +142,7 @@ export default function Home() {
           primaryHref:
             "https://wa.me/5575992590971?text=Quero%20meu%20mini%20site%20na%20bio",
           primaryLabel: "Quero meu mini site na bio",
-          secondaryHref: "https://SEU-CHECKOUT",
+          secondaryHref: "https://mpago.la/1NFabxk",
           secondaryLabel: "Contratar agora",
         }}
       />
@@ -166,7 +166,7 @@ export default function Home() {
           primaryHref:
             "https://wa.me/5575992590971?text=Quero%20um%20portf%C3%B3lio%20profissional",
           primaryLabel: "Quero meu Link Único",
-          secondaryHref: "https://SEU-CHECKOUT",
+          secondaryHref: "https://mpago.la/1wgJRKm",
           secondaryLabel: "Contratar agora",
         }}
       />
